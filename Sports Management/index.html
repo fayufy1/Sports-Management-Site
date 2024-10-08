@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Management System</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fixtures.html">Fixtures</a></li>
+                <li><a href="divisions.html">Divisions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="landing-page" style="background-image: url('images/sports.jpg');">
+        <div class="content">
+            <h1>Welcome to the Sports Management System</h1>
+            <p>Manage your sports teams, fixtures, and divisions with ease. Choose your sport and get started!</p>
+    
+            <div class="sports-container">
+                <!-- Basketball Section -->
+                <div class="sport basketball">
+                    <img src="images/basketball.jfif" alt="Basketball" class="sport-img">
+                    <h3>Basketball</h3>
+                    <p>Manage basketball teams, create fixtures, and more.</p>
+                    <button onclick="chooseSport('basketball')">Get Started</button>
+                </div>
+    
+                <!-- Football Section -->
+                <div class="sport football">
+                    <img src="images/football.jpg" alt="Football" class="sport-img">
+                    <h3>Football</h3>
+                    <p>Manage football teams, set schedules, and more.</p>
+                    <button onclick="chooseSport('football')">Get Started</button>
+                </div>
+    
+                <!-- Tennis Section -->
+                <div class="sport tennis">
+                    <img src="images/tennis.jpg" alt="Tennis" class="sport-img">
+                    <h3>Tennis</h3>
+                    <p>Manage tennis tournaments, matchups, and more.</p>
+                    <button onclick="chooseSport('tennis')">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Sports Management System. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts/mains.js"></script>
+</body>
+</html>
